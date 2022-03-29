@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="WEZ03iuBja_KKgaaFv1i" name="Page-1">
-        <mxGraphModel dx="834" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="690" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -16,18 +16,19 @@
                 <mxCell id="2" value="number game" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="354" y="130" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="210" y="350" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
                 <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="Input" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="150" y="230" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="60" y="230" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;rounded=0;" parent="1" source="4" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="4" target="25">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="4" value="Process" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -39,16 +40,22 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="5" value="Output" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="530" y="230" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="640" y="230" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="is number = NumberAnswer&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="354" y="350" width="120" height="60" as="geometry"/>
+                <mxCell id="8" value="&#10;&#10;&lt;span style=&quot;color: rgb(240, 240, 240); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(42, 42, 42); display: inline; float: none;&quot;&gt;if number is &amp;gt;0&lt;/span&gt;&#10;&#10;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="360" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="9" value="show answer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="530" y="350" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="640" y="350" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="10" value="input number" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="150" y="350" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="60" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="if number is &amp;lt;0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="if number is &amp;gt;0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="360" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
