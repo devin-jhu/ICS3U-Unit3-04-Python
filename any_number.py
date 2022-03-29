@@ -2,26 +2,25 @@
 
 # Created by Devin Jhu
 # Created on March 2022
-# The number game
-
-import constants
+# The integer finder
 
 
 def main():
-    # this function is a guessing game
+    # this function is a positive or negative finder
 
-    print("The number game")
-    print("Guess a number between 1 and 9")
+    print("The integer finder")
 
     # input
-    NumberGuess = int(input("enter number: "))
+    Number = int(input("enter number: "))
 
     # process
-    if NumberGuess == constants.NumberAnswer:
-        print("you win!")
+    if Number > 0:
+        print("positive number")
+    elif Number < 0:
+        print("negative number")
     else:
-        print("you lose :(")
-    print("Done.")
+        print("Zero")
+    print("\nDone.")
 
 
 if __name__ == "__main__":
