@@ -11,12 +11,12 @@ def main():
     print("The integer finder")
 
     # input
-    Number = int(input("enter number: "))
+    number = int(input("enter number: "))
 
     # process
-    if Number > 0:
+    if number > 0:
         print("positive number")
-    elif Number < 0:
+    elif number < 0:
         print("negative number")
     else:
         print("Zero")
